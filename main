@@ -1,0 +1,5 @@
+cd /d D:
+mkdir "BACKUP - %date%"
+cd /d C:
+cd C:\Users\%USERNAME\Desktop
+ROBOCOPY /E C:\Users\%USERNAME\Desktop D:\
